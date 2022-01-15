@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.start-wall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.start-page-right {
+  background-image: url(../images/snake_game.jpg);
+  background-repeat: no-repeat;
+  height: 99vmin;
+  width: 1192vmin;
+  background-size: cover;
+  margin: 0;
+}
+
+.start-page-left {
+  background-color: black;
+  height: 99vmin;
+  width: 190vmin;
+  margin: 0;
+}
+
+.play-btn {
+  position: fixed;
+  top: 85%;
+  left: 2%;
+  width: 20vmin;
+  height: 5vmin;
+  background-color: #96c603;
+  border: none;
+  font-size: 1.3em;
+  font-family: "Press Start 2P", cursive;
+}

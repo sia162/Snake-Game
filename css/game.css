@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background: url("../images/ba.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  background: linear-gradient(black, #36381b);
+  width: 90vmin;
+  height: 90vmin;
+  left: 20%;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: repeat(21, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+}
+
+.snake {
+  background: red;
+}
+
+.food {
+  background: mediumblue;
+}
