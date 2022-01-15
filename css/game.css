@@ -26,10 +26,14 @@
   grid-template-rows: repeat(21, 1fr);
 }
 
+.head {
+  background: rgb(156, 208, 155);
+}
+
 .snake {
-  background: red;
+  background: rgb(95, 181, 94);
 }
 
 .food {
-  background: mediumblue;
+  background: rgb(255, 81, 0);
 }
